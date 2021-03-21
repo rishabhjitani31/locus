@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 800px;
+  overflow: auto;
+}
+
+.card {
+  height: 200px;
+  width: 420px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignment {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.key-press {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
